@@ -1,0 +1,5 @@
+.Pages{
+    display: flex; 
+    gap: 10px;
+    @apply text-sm font-bold
+}
