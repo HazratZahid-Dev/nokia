@@ -1,0 +1,23 @@
+.MyExp__main{
+    background: #EEE;
+    padding: 50px;
+}
+
+.MyExperience{
+    @apply flex gap-2 justify-center
+}
+
+
+.exp__line{
+    @apply w-[30px] h-[2px] bg-black mt-3
+}
+.education{
+    @apply justify-center flex text-center text-2xl font-bold
+}
+
+@media(max-width:900px){
+    .education{
+        @apply text-xl 
+    }
+
+}

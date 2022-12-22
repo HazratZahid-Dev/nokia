@@ -1,0 +1,34 @@
+.Main__clients{
+    
+   
+    background: url('../images/exp3.jpg');
+    background-position: center;
+    background-size: cover;
+    @apply p-5 h-[140vh] 
+
+}
+.feedBack{
+    @apply text-blue-700  tracking-widest font-bold
+}
+.Client__Say{
+    @apply text-center text-3xl font-bold text-white tracking-wider mt-2
+}
+.Client__content{
+    @apply w-[80%] flex  m-auto mt-10 h-auto
+}
+.client__left{
+    @apply w-[50%] h-[60vh] 
+}
+.client__right{
+    @apply w-[50%] h-[60vh] 
+}
+
+@media(max-width:900px){
+    .Client__Say{
+        @apply  text-xl
+    }
+    .client__right{
+        @apply w-[100%] h-[100vh] 
+    }
+
+}

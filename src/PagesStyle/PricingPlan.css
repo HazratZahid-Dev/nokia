@@ -1,0 +1,66 @@
+.pricing{
+    @apply text-blue-900 font-bold tracking-wider flex gap-2
+}
+.pricing__main{
+    @apply w-[70%] justify-center h-[100vh]  m-auto p-12
+}
+.pricing__heading{
+    @apply w-[87%] justify-between m-auto 
+}
+.heading__btn{
+    @apply flex justify-between mt-2 flex-wrap
+}
+.priceingLine{
+    
+    @apply h-[3px] w-[30px] bg-gray-600 mt-3
+}
+.price__btn__div{
+    background: #e3e6e9;
+    align-items: center;
+    @apply  w-[280px] h-[51px] rounded-3xl p-1 gap-3 flex justify-center
+}
+.monthly{
+    background: #15133C;
+     @apply  text-white rounded-3xl text-center w-[110px] h-[30px] 
+}
+.monthly:hover{
+    transition: 1s;
+    @apply bg-white text-black
+}
+.Yearly{
+    
+    @apply  text-black rounded-3xl bg-white justify-center w-[110px] h-[30px]  
+}
+.Yearly:hover{
+    background: #15133C;
+    transition: 1s; 
+    color: white;
+}
+.Price__Heading{
+    @apply text-4xl font-bold
+}
+
+@media(max-width:900px){
+    .Price__Heading{
+        @apply text-xl font-bold
+    }
+    .heading__btn{
+        @apply text-center
+    }
+
+    .price__btn__div{
+
+        @apply  w-[180px] h-[45px] rounded-3xl py-1 flex px-4 mt-4
+    }
+    .monthly{
+         @apply   w-[80px] text-sm
+    }
+    .Yearly{
+    
+        @apply  w-[80px] text-sm
+    }
+    .pricing__main{
+        @apply w-[70%] justify-center h-auto  m-auto p-12
+    }
+    
+}

@@ -1,0 +1,53 @@
+.Follow__main{
+    background-color: #EEEEEE;
+    @apply flex  justify-center gap-14 p-20 w-[100%] h-auto flex-wrap
+}
+.followOn{
+    @apply font-bold text-blue-700 flex gap-2
+}
+.FollowLine{
+    @apply w-[30px] h-[3px] bg-gray-500 mt-3
+}
+.StayConnect{
+    @apply text-4xl font-bold
+}
+.FollowPara{
+    @apply text-sm mt-3
+}
+.FaceBook{
+    @apply flex  h-[45px] w-[220px] bg-white
+}
+.Followers{
+    border-right: 1px solid grey;
+    @apply  w-[137px]  h-[45px]  
+}
+.FollowersP{
+     transform: translateY(-40px); 
+    font-size: 8px;
+}
+.facebookBTN{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    @apply  w-[40px] h-[45px] bg-blue-800 text-white
+}
+.FollowersPara{
+    @apply text-center text-xs text-gray-600
+}
+#FaPlus{
+    @apply bg-white text-gray-600 border-none text-blue-800
+}
+
+#twitter{
+    background-color: #2192FF;
+}
+#google{
+    background-color: #E14D2A;
+}
+#youtube{
+    background-color: #DA1212;
+}
+#insta{
+    background-color: #CB1C8D;
+
+}

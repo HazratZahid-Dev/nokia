@@ -1,0 +1,23 @@
+.edu__cards{
+    @apply flex justify-center gap-5 mt-7 flex-wrap
+    
+}
+
+
+.icons__edu{
+    @apply text-3xl  bg-blue-700 text-white p-3
+}
+.School{
+    @apply text-sm font-bold text-gray-700
+}
+.certificate{
+    @apply  font-bold
+}
+.edu__card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    @apply w-[300px] border p-5 bg-white 
+}
+.edu__para{
+    @apply text-sm mt-3
+}
+

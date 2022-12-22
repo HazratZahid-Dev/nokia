@@ -1,0 +1,33 @@
+.Main__Cards{
+    @apply flex flex-wrap gap-8 justify-center mt-10 rounded-sm 
+}
+
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    @apply w-[330px]  p-10  bg-white border-blue-700 border-b-2
+
+}
+.icons{
+    
+    @apply justify-center flex text-5xl text-blue-800
+}
+.heading{
+    @apply text-center text-xl font-bold mt-3
+}
+
+.card__paraghraph{
+    @apply mt-2 
+}
+.Card__btn{
+    @apply  flex gap-1 text-sm  font-bold
+}
+
+@media(max-width:1000px){
+    .cards{
+    
+    
+        @apply w-[300px]  p-8 text-sm text-justify
+    
+    }
+    
+}

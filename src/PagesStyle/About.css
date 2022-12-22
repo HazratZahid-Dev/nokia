@@ -1,0 +1,70 @@
+.Main__About{
+    @apply flex flex-wrap
+}
+
+.img__sec{
+    height: 400px;
+    @apply w-[50%] 
+}
+.RightSide{
+    background: #EEEEEE;
+     @apply w-[50%] p-4 h-[400px]
+}
+.line__text{
+   
+    @apply flex gap-2 font-bold text-gray-800 py-3
+}
+.line{
+    @apply w-[30px] h-[5px] bg-red-700 mt-3 rounded-xl
+}
+.About__heading{
+    @apply text-3xl font-bold
+}
+.About__para{
+    @apply mt-4 text-gray-800 text-sm
+}
+.Courses{
+    @apply flex justify-around flex-wrap
+}
+.sectionOne{
+    @apply  mt-4 text-sm font-bold text-gray-900
+}
+.sectionTwo{
+    @apply  mt-4  text-sm font-bold text-gray-900
+}
+.sectionThree{
+    @apply flex gap-28 mt-2 border text-sm font-bold text-gray-900
+}
+.checkAndPara{
+    @apply flex gap-2
+}
+
+.FaCheck{
+    border: 1px solid grey;
+    @apply w-[20px] h-[20px]  rounded-sm
+}
+
+@media(max-width:1000px){
+    .img__sec{
+        height: 400px;
+        @apply w-[100%] 
+    }
+    .RightSide{
+        background: #EEEEEE;
+         @apply w-[100%] p-4 h-[400px]
+    }
+
+    .Courses{
+        @apply justify-between
+    }
+
+    .checkAndPara{
+        @apply  gap-2  text-xs 
+    }
+    #MobileApp{
+        @apply ml-6
+    }
+    .About__heading{
+        @apply text-2xl 
+    }
+}

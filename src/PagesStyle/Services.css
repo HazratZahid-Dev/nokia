@@ -1,0 +1,30 @@
+.Services{
+    background: #EEEEEE;
+    @apply p-16
+}
+.services__line{
+    @apply w-[35px] h-[3px] bg-gray-800 mt-3 rounded-lg
+}
+.services__gap{
+    @apply flex justify-center gap-2
+}
+.services__heading{
+    @apply  text-center text-gray-900
+}
+.myServices__heading{
+    @apply text-3xl font-bold mt-4
+}
+
+@media(max-width:1000px){
+    .services__heading{
+        @apply  text-sm
+    }
+    .services__line{
+        @apply w-[25px] mt-2 
+    }
+
+    .myServices__heading{
+        @apply text-xl font-bold mt-4
+    }
+
+}

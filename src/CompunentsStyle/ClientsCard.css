@@ -1,0 +1,58 @@
+.CardOne{
+    @apply w-[250px] h-[230px]  p-3 bg-white 
+}
+.cardOne__img{
+    border-radius: 50%;
+    @apply w-[54px] h-[54px]
+}
+.cardOnePara{
+    @apply text-sm mt-3 leading-6 text-gray-700 
+}
+.star{
+    color: #F49D1A;
+    @apply flex mt-3 gap-2  justify-center text-xl
+}
+.premium{
+    @apply bg-blue-700 w-[200px] text-center text-white font-bold p-4 text-xl h-[90px] mt-[65px]
+}
+#cardTwo{
+    @apply w-[230px] ml-5 mt-3 h-[200px] text-justify
+}
+
+#cardThree{
+    transform: translateY(-70px);
+    @apply w-[230px] ml-6 mt-3 h-[255px]  
+}
+.webDeveloper{
+    @apply text-sm font-bold text-blue-700
+}
+
+@media(max-width:900px){
+    .CardOne{
+        @apply w-[270px] h-[250px]  p-3 bg-white 
+    }
+    #cardTwo{
+        @apply h-[230px] w-[250px] 
+    }
+    #cardThree{
+        @apply w-[280px] h-[275px] 
+    }
+    .webDeveloper{
+        @apply text-xs 
+    }
+    .cardOne__img{
+        @apply w-[44px] h-[44px]
+    }
+    .premium{
+        @apply  p-3 text-sm h-[70px] mt-[65px]
+    }
+    .cardOnePara{
+        /* text-justify: distribute; */
+        
+        @apply text-xs 
+    }
+    .star{
+    
+        @apply  text-sm
+    }
+}

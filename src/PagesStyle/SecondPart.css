@@ -1,0 +1,98 @@
+.secondPart__heading{
+    background: #EEEEEE;
+    @apply flex justify-evenly p-16
+}
+.headers{
+    @apply text-3xl font-extrabold
+}
+.bottom__buttons{
+    transform: translateY(-20px);
+    @apply flex justify-evenly 
+}
+.header__bottom{
+    @apply text-sm
+}
+#bg__blue{
+    @apply bg-blue-700 text-white
+}
+#bg__blue:hover{
+    @apply bg-white text-black
+}
+.Bottom__btn{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    @apply  py-3 px-8 bg-white text-sm font-bold rounded-sm w-[180px]
+}
+
+.Bottom__btn:hover{
+    @apply bg-blue-700 text-white
+}
+
+.succeeded{
+  border: 10px solid blue;
+  border-radius: 50%;
+  align-items: center;
+  @apply  p-3 w-[150px] h-[150px] justify-center text-center
+}
+.succeeded:hover{
+border: 10px solid rgb(255, 187, 0);
+
+}
+.number{
+align-items: center;
+  @apply text-4xl font-bold  justify-center flex  text-center mt-4 ml-1
+}
+.number:hover{
+color: rgb(255, 187, 0);
+}
+.counterPara{
+align-items: center;
+  @apply text-sm mt-1 
+}
+.counterPara:hover{
+color: rgb(255, 187, 0);
+@apply  font-bold
+}
+.main__circle{
+  @apply flex  w-[100%] justify-evenly
+}
+
+
+@media(max-width:1000px){
+
+    .headers{
+        @apply text-2xl font-extrabold 
+    }
+
+    .Bottom__btn{
+        @apply  py-1 px-1 bg-white text-xs font-normal rounded-sm w-[100px]
+    }
+    .header__bottom{
+        font-size: 11px;
+        @apply font-bold tracking-wide leading-4
+    }
+
+    .succeeded{
+      border: 5px solid blue;
+      border-radius: 50%;
+      align-items: center;
+      @apply  p-4 w-[95px] h-[95px] justify-center text-center
+    }
+
+    .number{
+        @apply text-xl font-bold  justify-center flex  text-center mt-0 ml-1
+      }
+      .counterPara{
+        
+          @apply text-xs mt-1 
+        }
+
+        .succeeded:hover{
+          border: 5px solid rgb(255, 187, 0);
+          
+          }
+          .main__circle{
+            @apply gap-10 
+          }
+
+}
+

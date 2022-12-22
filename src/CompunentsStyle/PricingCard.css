@@ -1,0 +1,36 @@
+.card__img{
+    border-radius: 50%;
+    transform: translateY(10px);
+    /* transform: translateX(0px); */
+    @apply w-[50px] h-[50px] m-auto  ml-3 
+}
+.img__circle{
+    border-radius: 50%;
+    transform: translateY(-10px);
+    @apply w-[60px] h-[60px] bg-slate-700  
+}
+.plan{
+    @apply text-xl font-bold text-white text-sm
+}
+.price__card__main{
+    background: #00092C;
+    @apply mt-12 w-[240px]  p-3 h-[345px]
+}
+.price{
+    @apply font-bold text-white text-4xl
+}
+.choosePlan{
+    @apply   px-5 py-2 rounded-3xl text-sm font-bold  flex m-auto mt-5 text-white gap-1 bg-blue-700
+}
+
+@media(max-width:900px){
+
+    .price{
+        @apply  text-3xl
+    }
+    .choosePlan{
+        @apply   px-3 py-1 text-xs 
+    }
+    
+
+}

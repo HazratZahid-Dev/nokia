@@ -1,0 +1,62 @@
+.Main__Card__Latest{
+   
+    @apply flex justify-center mt-8 gap-4 flex-wrap
+}
+.WebDate{
+    @apply flex  mt-2 text-sm font-bold px-3 py-1 gap-4
+}
+
+
+.Card__Latest{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @apply w-[250px] border justify-center  
+}
+
+
+.New__img{
+    @apply w-[250px] h-[200px]
+}
+.NewHeader{
+    @apply  font-bold px-3 py-1 tracking-wide
+}
+.btnShare{
+    @apply justify-between flex  p-3
+}
+.blogBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F3E9DD;
+     @apply   flex rounded-3xl px-5  tracking-wide
+}
+.blogBtn:hover{
+    transition: 1s;
+    @apply bg-blue-700
+}
+.Calender{
+    margin-top: 3px;
+    font-size: 16px;
+    @apply text-blue-700
+}
+.arrows{
+    margin-top:6px;
+}
+.shareIcons{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    border-radius: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+background: blue;
+    @apply bg-blue-700 w-[40px] h-[40px] 
+
+}
+
+.shareIcons:hover{
+    background: white;
+    border: 1px solid black;
+    transition: 1s;
+    @apply text-black animate-spin
+
+}

@@ -1,0 +1,105 @@
+
+
+ .img__main{
+    @apply w-[100%] h-[50vh] opacity-50 flex
+ }
+
+ .text__part{
+    position: absolute;
+     transform: translateY(-250px);
+     /* border: 2px solid black; */
+     width: 100%;
+    @apply px-20 py-6 justify-between flex 
+    
+ }
+
+ .btn__sec{
+    transform: translateY(-260px);
+    border: 2px solid black;
+
+    width: 30%;
+    /* border: 2px solid black; */
+    
+    @apply ml-[60%] text-end mt-[70px]
+    
+ }
+ .meet{
+    @apply  font-bold text-white flex gap-2
+ }
+ .ready{
+    @apply text-3xl text-white font-bold
+ }
+ .btn__part{
+    @apply gap-3 mt-4 flex
+ }
+ .Arrows{
+   align-items: center;
+ }
+
+ .C__btn{
+   align-items: center;
+
+    @apply   rounded-2xl w-[125px] py-1 bg-blue-700 text-white text-sm flex  justify-center
+ }
+ .C__btn:hover{
+    @apply bg-white text-black 
+ }
+ .O__btn{
+   align-items: center;
+    @apply border  rounded-2xl w-[125px] py-1 justify-center  text-black text-sm bg-white  ml-3 flex
+ }
+ .O__btn:hover{
+    @apply bg-blue-700 text-white border-none
+ }
+ .Bi__play{
+   
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    @apply border text-4xl bg-white mt-12 
+ }
+ .Bi__play:hover{
+    @apply text-white bg-blue-700 border-none
+ }
+
+ .Meet__line{
+
+   
+    @apply w-[30px] h-[3px] bg-white  flex mt-3
+ }
+
+ @media(max-width:1000px){
+
+   .text__part{
+      
+      
+      @apply mt-8
+      
+   }
+
+   .btn__sec{
+      transform: translateY(-260px);
+      width: 30%;
+      @apply ml-[40%] text-end mt-[70px]
+      
+   }
+   .ready{
+      @apply text-sm
+   }
+   .meet{
+      @apply  text-xs
+   }
+   .C__btn{
+      font-size: 9px;
+      @apply w-[95px]  gap-1 h-[25px]  
+   }
+
+   .O__btn{
+      font-size: 9px;
+      @apply w-[95px]  gap-1  h-[25px]  
+   }
+   .Bi__play{
+      @apply border text-2xl
+   }
+   .Meet__line{
+      @apply w-[20px] h-[3px]   flex mt-2
+   }
+ }

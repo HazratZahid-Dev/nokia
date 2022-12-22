@@ -1,0 +1,52 @@
+.Footer{
+    background-color: #000145;
+    border-bottom: 1px solid gray;
+    @apply w-[100%] h-[40vh] flex justify-evenly flex-wrap p-10
+}
+.footerLogo{
+    @apply flex text-white gap-2 font-bold text-2xl
+}
+.phone{
+    @apply mt-1
+}
+.footerPara{
+    @apply text-white mt-2 text-sm
+}
+
+.footer__btn{
+    /* display: flex; */
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%;
+    @apply w-[30px] h-[30px] border flex text-white mt-2
+}
+
+.locationPara{
+    @apply flex gap-2 text-white text-sm leading-6 tracking-wide 
+}
+
+.footerLine{
+    @apply w-[35px] h-[3px] bg-blue-600 mt-1
+}
+.email__btn{
+    align-items: center;
+    justify-content: center;
+    @apply w-[170px] h-[33px] border text-xs flex text-white gap-2 rounded-xl mt-4 bg-blue-700 border-none
+}
+.footerimg{
+    @apply w-[60px] h-[60px]
+}
+.contactMe{
+    @apply text-white text-xl font-bold
+}
+.AllRight{
+    background-color: #000145;
+    @apply text-center text-gray-400
+}
+
+@media(max-width:900px){
+    .Footer{
+    
+        @apply w-[100%] h-auto flex justify-evenly flex-wrap p-10 gap-8
+    }
+}

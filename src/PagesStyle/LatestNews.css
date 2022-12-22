@@ -1,0 +1,6 @@
+.small__heading{
+    @apply text-center text-blue-800 font-bold
+}
+.main__header{
+    @apply text-center text-3xl font-bold
+}
