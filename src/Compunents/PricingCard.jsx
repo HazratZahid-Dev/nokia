@@ -6,11 +6,11 @@ import {BiCheck,BiRightArrowAlt} from 'react-icons/bi'
 const PricingCard = () => {
     return (
         <>
-            <div className='flex gap-4 flex-wrap justify-center'>
+            <div className='flex gap-4 flex-wrap justify-center shadow-blue-700'>
 
                 {pricingData.map((it) => (
                     <>
-                        <div className='price__card__main'>
+                        <div className='price__card__main  '>
                             <div className='flex gap-2 p-4'>
                                 <div className='img__circle'>
                                     <img src={it.img} className='card__img'></img>

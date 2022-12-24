@@ -14,7 +14,7 @@
 }
 .price__card__main{
     background: #00092C;
-    @apply mt-12 w-[240px]  p-3 h-[345px]
+    @apply mt-12 w-[240px]  p-3 h-[345px] hover:shadow-blue-700
 }
 .price{
     @apply font-bold text-white text-4xl
