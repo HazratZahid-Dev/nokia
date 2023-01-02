@@ -20,6 +20,8 @@ const Navbar = () => {
             <li><a href='#MyExperience' className="text-white">MyExperience</a></li>
             <li><a href='#ClientFeedBack' className="text-white">ClientFeedBack</a></li>
             <li><a href='#FollowOn' className="text-white">FollowOn</a></li>
+            <li><a href='#Office' className="text-white">Office</a></li>
+
         </ul>
     </div>
     <div className='flex gap-3'>

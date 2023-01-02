@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 import LatesNews from './Pages/LatesNews';
 import MeetWithUs from './Pages/MeetWithUs';
 import MyExperiance from './Pages/MyExperiance';
+import Office from './Pages/Office';
 import PricingPlan from './Pages/PricingPlan';
 import Projects from './Pages/Projects';
 import SeconPart from './Pages/SeconPart';
@@ -27,6 +28,7 @@ function App() {
     <PricingPlan/>
     <LatesNews/>
     <FollowOn/>
+    <Office/>
     <Footer/>
       
     </div>
